@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="food.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" id = 'top-menu'href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <div class="navRight">
+            <h1 class='restaurantName'>Restaurant name</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="sideMenu">
+            <a href="#home" class="active">Home</a>
+            <a href="#starters-menu" id="starters-menu">Starters</a>
+            <a href="#mains" id="mains-menu">Mains</a>
+            <a href="#desserts" id="desserts-menu">Desserts</a>
+            <div id = 'Basket'> Basket </div>
+            <ul id="basketList"></ul>
+            
+        </div>
+        <div class="gridThing" id='Mains'>
+            <div id='Quasadillas' class="Mains addToBasket">
+                <h2>Quesadilla's</h2>
+                <p>Delicious Quasadillas</p>
+                <img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/quesadillas-ac27262.jpg?quality=90&webp=true&resize=500,454">
+            </div>
+            <div id='Huevos rancheros' class="Mains addToBasket">
+                <h2>Huevos rancheros</h2>
+                <p>Delicious Huevos rancheros</p>
+                <img
+                    src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/easy-huevos-rancheros-38e94de.jpg?quality=90&webp=true&resize=440,400">
+            </div>
+            <div id='Spicy bean taco bowl' class="Mains addToBasket">
+                <h2>Spicy bean taco bowl</h2>
+                <p>Delicious Spicy bean taco bowl</p>
+                <img src="https://umamigirl.com/wp-content/uploads/2022/05/Vegan-Taco-Bowls-Umami-Girl-1200-3.jpg">
+            </div>
+        </div>
+        <div class="gridThing" id='starters'>
+            <div id="Elote" class="Starters addToBasket" >
+                <h2>Elote</h2>
+                <p>Delicious Elote</p>
+                <img src="https://cookieandkate.com/images/2020/08/elote-recipe-2.jpg">
+            </div>
+            <div id="Sopa De Lima" class="Starters addToBasket">
+                <h2>Sopa De Lima</h2>
+                <p>Delicious Sopa De Lima</p>
+                <img
+                    src="https://www.simplyrecipes.com/thmb/ixu7ycqFEZd8hOgVPXOtdjjHhAE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2013__04__Mexican-Chicken-Lime-Soup-vertical-a-640-f0c39607dba34476a8b8f488a038797e.jpg">
+            </div>
+            <div id="Tamales" class="Starters addToBasket">
+                <h2>Tamales</h2>
+                <p>Delicious Tamales</p>
+                <img src="https://tastesbetterfromscratch.com/wp-content/uploads/2017/10/Tamales-17.jpg">
+            </div>
+        </div>
+        <div class="gridThing" id='Desserts'>
+            <div id="Plátanos Fritos" class="Desserts addToBasket">
+                <h2>Plátanos Fritos</h2>
+                <p>Delicious Plátanos Fritos</p>
+                <img src="https://brokebankvegan.com/wp-content/uploads/2022/06/Platanos-Fritos.jpg">
+            </div>
+            <div id="Coyotas" class="Desserts addToBasket">
+                <h2>Coyotas</h2>
+                <p>Delicious Coyotas</p>
+                <img src="https://www.maricruzavalos.com/wp-content/uploads/2020/09/coyotas2.jpg">
+            </div>
+            <div id="Jamoncillo" class="Desserts addToBasket">
+                <h2>Jamoncillo</h2>
+                <p>Delicious Jamoncillo</p>
+                <img src="https://www.imperialsugar.com/sites/default/files/styles/recipe_image_node_full/public/recipe/Milk-Fudge-Jamoncillo-de-leche-imperial.jpg?itok=bDWg4PLP">
+            </div>
+        </div>
+    </div>
+    <script src="./food.js"></script>
+</body>
+
+</html>
